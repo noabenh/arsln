@@ -1935,5 +1935,21 @@ body {
     .intro--options{
         display:block;
     }
+    .intro--options h3{
+        font-size: 1.1em;
+    }
+    .intro--banner{
+        margin-top:70px;
+    }
+    .work--lockup .slider--item-center .slider--item-title{
+        margin:0;        
+    }
+    .slider--item-description li{
+        font-size:0.9em;
+    }
+    .work h2{
+        font-size:1.9em;
+        margin-bottom:0px;
+    }
     
 }
