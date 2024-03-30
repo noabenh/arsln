@@ -1013,7 +1013,7 @@
         }
         var o = !0,
             a = null;
-        $(this).on("mousewheel DOMMouseScroll", function (e) {
+        $(this).on("scroll mousewheel DOMMouseScroll", function (e) {
             if (!$(".outer-nav").hasClass("is-vis")) {
                 e.preventDefault();
                 var i = e.originalEvent.wheelDelta ? -e.originalEvent.wheelDelta : 20 * e.originalEvent.detail;
