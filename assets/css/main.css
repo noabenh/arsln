@@ -1815,6 +1815,9 @@ body {
     .exchanges img{
         max-width: 140px !important;
     }
+    .contact--lockup .modal{
+        padding: 0px 45px;
+    }
 }
 
 .outer-nav li.is-vis:nth-child(2) {
