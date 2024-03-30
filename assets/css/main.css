@@ -861,7 +861,7 @@ body {
     }
 
     .intro--options {
-        display: none
+        display: none;
     }
 }
 
@@ -1298,7 +1298,7 @@ body {
 
     .about--banner h2 {
         margin-top: 0;
-        font-size: 55px
+        font-size: 55px;
     }
 
     .about--banner h2::before {
@@ -1882,4 +1882,58 @@ body {
     max-width: 100px;
     top: 8px;
     bottom: 0px;
+}
+@media (max-height: 600px){
+.about--banner h2{
+    font-size: 30px;
+}
+.about p{
+    font-size: 0.8em !important;
+}
+    .hire{
+            
+    }
+.hire h2{
+    font-size: 1em !important;
+}
+.tk-breakdown {
+    font-size: 0.8em !important;
+}
+    .tk-breakdown .row{
+        padding:1px;
+    }
+    .contact--lockup .modal {
+    padding: 0px 15px;
+    }
+    .modal--information h1{
+        font-size: 1.3em !important;
+    }
+    .exchanges-container{
+        padding-top:0px;
+    }
+    .exchanges-container h1{
+        font-size:1.3em;
+    }
+    .exchanges li{
+        margin: 10px 15px;
+    }
+    .exchanges img{
+        max-width: 80px !important;
+    }
+    .socials img{
+        max-width: 25px !important;
+    }
+    .disclaimer h3{
+        font-size:0.8em;
+    }
+    .disclaimer{
+        font-size:0.7em;
+    }
+    .intro--banner h1 {
+        font-size:3em;
+    }
+    .intro--options{
+        display:block;
+    }
+    
 }
