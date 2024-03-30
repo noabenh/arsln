@@ -1818,6 +1818,9 @@ body {
     .contact--lockup .modal{
         padding: 0px 45px;
     }
+    .tk-chart img{
+        max-width:200px !important;
+    }
 }
 
 .outer-nav li.is-vis:nth-child(2) {
